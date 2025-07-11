@@ -1,0 +1,27 @@
+# Ignore everything
+*
+# Allow this .gitignore file
+!.gitignore
+
+# Allow all folders so we can walk into them
+!*/
+!*/**/
+!*/**/
+
+# Allow all .cs files in all subfolders
+!*/**/*.cs
+
+# Ignore common .NET build/user files
+bin/
+obj/
+.vs/
+*.user
+*.suo
+*.cache
+*.log
+*.dbmdl
+*.pdb
+*.exe
+*.dll
+*.app
+*.csproj.user
